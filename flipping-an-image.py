@@ -18,12 +18,12 @@ class Solution:
                 temp = row[i]
 
                 row[i] = row[len(row ) - 1 -i]
-                i f(row[i] == 0):
+                if(row[i] == 0):
                     row[i] = 1
                 else:
                     row[i] = 0
                 row[len(row ) - 1 -i] = temp
-                i f(row[len(row ) - 1 -i] == 0):
+                if(row[len(row ) - 1 -i] == 0):
                     row[len(row ) - 1 -i] = 1
                 else:
                     row[len(row ) - 1 -i] = 0
