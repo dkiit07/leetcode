@@ -25,6 +25,7 @@ class Solution(object):
                     shortest_word_len = len(word_list)
                 str_arr.append(word_list)
         print(str_arr)
+        
         common_predix = ""
         i = -1
         break_flag = False
